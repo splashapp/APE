@@ -41,7 +41,7 @@
 
 ```mermaid
 classDiagram
-    Fähigkeit {
+    Faehigkeit {
         +String Name
         +String Beschreibung
     }
