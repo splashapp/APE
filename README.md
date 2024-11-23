@@ -78,3 +78,4 @@ classDiagram
     Einzelrecht "0..n" --> "0..n" Anwendungsrolle
     Einzelrecht "0..n" --> "0..n" ITBundle
     Anwendungsrolle "0..n" --> "0..n" ITBundle
+    ```
