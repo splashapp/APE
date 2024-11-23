@@ -47,4 +47,36 @@ classDiagram
     Einzelrecht "0..n" --> "0..n" Anwendungsrolle
     Einzelrecht "0..n" --> "0..n" ITBundle
     Anwendungsrolle "0..n" --> "0..n" ITBundle
+
+       Faehigkeit {
+        +String Name
+        +String Beschreibung
+    }
+
+    Anwendung {
+        +String Name
+        +String LeanixId
+    }
+
+    Einzelrecht {
+        +String Name
+        +String Beschreibung
+        +Boolean privilegiert
+        +String SoDArea
+        +Boolean bestellbar
+    }
+
+    ITBundle {
+        +String Name
+        +String Beschreibung
+        +Boolean privilegiert
+        +String SoDArea
+        +Boolean bestellbar
+    }
+
+    Anwendungsrolle {
+        +String Name
+        +String Beschreibung
+    }
+
     ```
