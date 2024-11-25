@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container mt-5">
+    <h1 class="mb-4">Fähigkeit bearbeiten</h1>
+    
+    <form method="POST" action="{{ url_for('faehigkeit_bp.update_faehigkeit', id=faehigkeit.id) }}">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" 
+                   class="form-control" 
+                   id="name" 
+                   name="name" 
+                   value="{{ faehigkeit.name }}" 
+                   required>
+        </div>
+        
+        <div class="form-group">
+            <label for="beschreibung">Beschreibung</label>
+            <textarea class="form-control" 
+                      id="beschreibung" 
+                      name="beschreibung" 
+                      rows="3">{{ faehigkeit.beschreibung }}</textarea>
+        </div>
+        
+        <div class="form-group">
+            <label for="link">Link</label>
+            <input type="url" 
+                   class="form-control" 
+                   id="link" 
+                   name="link"
+                   value="{{ faehigkeit.link }}">
+        </div>
+
+        <div class="form-group d-flex justify-content-between">
+            <button type="submit" class="btn btn-primary">Speichern</button>
+            <a href="{{ url_for('faehigkeit_bp.get_all_faehigkeiten') }}" 
+               class="btn btn-secondary">Abbrechen</a>
+        </div>
+    </form>
+</div>
+{% endblock %}

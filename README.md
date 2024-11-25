@@ -31,6 +31,8 @@
 - **Einzelrecht** 0..n zu 0..n **Anwendungsrolle**
 - **Einzelrecht** 0..n zu 0..n **ITBundle**
 - **Anwendungsrolle** 0..n zu 0..n **ITBundle**
+- **Fähigkeit** 1..1 zu 0..n **Einzelrecht**
+- **Fähigkeit** 1..1 zu 0..n **Anwendungsrolle**
 
 ## Use Cases
 1. **Anlegen, Anzeigen, Löschen, Ändern** von Attributen des jeweiligen Datenobjekts
@@ -41,42 +43,9 @@
 
 ```mermaid
 classDiagram
-    Anwendung "1" --> "0..n" Einzelrecht
-    Anwendung "1" --> "0..n" Anwendungsrolle
-    Anwendung "1" --> "0..n" ITBundle
     Einzelrecht "0..n" --> "0..n" Anwendungsrolle
     Einzelrecht "0..n" --> "0..n" ITBundle
     Anwendungsrolle "0..n" --> "0..n" ITBundle
-
-       Faehigkeit {
-        +String Name
-        +String Beschreibung
-    }
-
-    Anwendung {
-        +String Name
-        +String LeanixId
-    }
-
-    Einzelrecht {
-        +String Name
-        +String Beschreibung
-        +Boolean privilegiert
-        +String SoDArea
-        +Boolean bestellbar
-    }
-
-    ITBundle {
-        +String Name
-        +String Beschreibung
-        +Boolean privilegiert
-        +String SoDArea
-        +Boolean bestellbar
-    }
-
-    Anwendungsrolle {
-        +String Name
-        +String Beschreibung
-    }
-
-    ```
+    Fähigkeit "0..1" --> "1" Einzelrecht
+    Fähigkeit "0..n" --> "0..n" Anwendungsrolle
+```

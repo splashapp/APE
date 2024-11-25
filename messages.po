@@ -1,0 +1,8 @@
+msgid "Welcome to APE"
+msgstr "Willkommen zur APE"
+
+msgid "Create new capability"
+msgstr "Neue Fähigkeit anlegen"
+
+msgid "Show capabilities"
+msgstr "Fähigkeiten anzeigen"
