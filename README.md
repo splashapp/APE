@@ -15,8 +15,10 @@ Ressourcenfähigkeit bezeichnet die spezifischen Aktionen, Funktionen oder Opera
 
 ### Group
 Within an authorization repository like Active Directory a Resource Capability is assigned to a group, which is then used to organize users and manage their access rights. The name of the group is typically based on the assigned Resource Capability, making it easier to identify and manage permissions within the authorization repository, such as Active Directory.
+Groups in a repository typically follow a naming convention, often with prefixes. These prefixes can indicate function, department, or region, e.g., "GRP_" followed by additional details. This practice promotes a uniform structure, facilitates organization, and enables quick identification of the group's purpose.
 
 In einem Autorisierungs-Repository wie Active Directory wird eine Resource Capability  einer Group (Gruppe) zugeordnet, die dann verwendet wird, um Benutzer zu organisieren und deren Zugriffsrechte zu verwalten. Der Name der Gruppe wird in der Regel nach der zugewiesenen Resource Capability benannt, was die Identifizierung und Verwaltung von Berechtigungen innerhalb des Autorisierungsrepositories wie Active Directory erleichtert.
+Groups in einem Repository folgen üblicherweise einer Namenskonvention, oft mit Präfixen. Diese Präfixe können Funktion, Abteilung oder Region anzeigen, z.B. "GRP_" gefolgt von weiteren Details. Diese Praxis fördert eine einheitliche Struktur, erleichtert die Organisation und ermöglicht eine schnelle Identifizierung des Gruppenzwecks.
 
 ### Entitlement
 
