@@ -10,9 +10,9 @@ Dabei werden verschiedene Prinzipien wie Least Privilege (Minimalprinzip), Segre
 (rollenbasierte Zugriffskontrolle) berücksichtigt.
 
 Das Berechtigungskonzept hat das Ziel, die IT-Sicherheit, Compliance und Effizienz zu erhöhen, indem:
-	1.	Der Zugriff auf sensible Daten und Systeme kontrolliert wird.
-	2.	Missbrauch und unbeabsichtigte Fehler durch klare Rollen und Verantwortlichkeiten minimiert werden.
-	3.	Die Anforderungen von Regulierungsbehörden und internen Richtlinien eingehalten werden.
+	1. 	Der Zugriff auf sensible Daten und Systeme kontrolliert wird.
+	2. 	Missbrauch und unbeabsichtigte Fehler durch klare Rollen und Verantwortlichkeiten minimiert werden.
+	3. 	Die Anforderungen von Regulierungsbehörden und internen Richtlinien eingehalten werden.
 
 Die Bestandteile eines Berechtigungskonzepts umfassen:
 	•	Ressourcen (z. B. Anwendungen, Server).
