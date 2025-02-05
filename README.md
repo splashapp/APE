@@ -15,10 +15,10 @@ Das Berechtigungskonzept hat das Ziel, die IT-Sicherheit, Compliance und Effizie
 1. 	Die Anforderungen von Regulierungsbehörden und internen Richtlinien eingehalten werden.
 
 Die Bestandteile eines Berechtigungskonzepts umfassen:
-	•	Ressourcen (z. B. Anwendungen, Server).
-	•	Benutzerrollen (z. B. „Mitarbeiter“, „Administrator“).
-	•	Zugriffsrechte (welche Aktionen eine Rolle ausführen darf).
-	•	Prozesse (für Genehmigung, Entzug und Überwachung von Berechtigungen).
+* Ressourcen (z. B. Anwendungen, Server).
+* Benutzerrollen (z. B. „Mitarbeiter“, „Administrator“).
+* Zugriffsrechte (welche Aktionen eine Rolle ausführen darf).
+* Prozesse (für Genehmigung, Entzug und Überwachung von Berechtigungen).
 
 
 ### Ressource 
