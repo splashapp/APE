@@ -83,6 +83,11 @@ Im IAM-Kontext wird ein Entitlement verwendet, um:
 *	Compliance-Anforderungen (z. B. Audit) durch Nachverfolgbarkeit und Berichtsfunktionen zu erfüllen.
 
 ### Entitlement vs Group
+
+UEBERARBEITUNG
+
+eine Group repraesentiert ein Entitlement in einem Repo wie Active Directory
+
 1.	Ein Entitlement in IIQ repräsentiert ein Zugriffsrecht, das aus einem Autorisierungsrepository wie Active Directory ausgelesen wird.
 2.	Eine Gruppe aus Active Directory wird in IIQ als ein Entitlement vom Typ “Group” importiert.
 3.	Entitlements in IIQ können mit zusätzlichen Attributen angereichert werden, wie:
