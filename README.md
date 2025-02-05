@@ -2,21 +2,42 @@
 
 ## Berechtigungskonzepts
 
-Ein Berechtigungskonzept ist ein strukturierter Plan oder ein Framework, das definiert, wie Zugriffsrechte innerhalb einer Organisation organisiert, 
-zugewiesen und verwaltet werden. Es legt fest, welche Benutzer Zugriff auf welche Ressourcen haben und unter welchen Bedingungen dieser Zugriff gewährt wird. 
-Dabei werden verschiedene Prinzipien wie Least Privilege (Minimalprinzip), Segregation of Duties (Trennung von Aufgaben) und Role-Based Access Control 
-(rollenbasierte Zugriffskontrolle) berücksichtigt.
+Ein Berechtigungskonzept ist ein strukturierter Plan, der festlegt, wie Zugriffsrechte innerhalb einer Organisation verwaltet werden. 
+Es definiert, welche Benutzer unter welchen Bedingungen auf welche Ressourcen zugreifen dürfen.
 
-Das Berechtigungskonzept hat das Ziel, die IT-Sicherheit, Compliance und Effizienz zu erhöhen, indem:
-1. 	Der Zugriff auf sensible Daten und Systeme kontrolliert wird.
-1. 	Missbrauch und unbeabsichtigte Fehler durch klare Rollen und Verantwortlichkeiten minimiert werden.
-1. 	Die Anforderungen von Regulierungsbehörden und internen Richtlinien eingehalten werden.
+### Kernelemente
+1.	Definition von Rollen und Rechten
+2.	Implementierung des Least-Privilege-Prinzips
+3.	Durchsetzung der Funktionstrennung (Segregation of Duties)
+4.	Etablierung eines rollenbasierten Zugriffskontrollsystems (RBAC)
 
-Die Bestandteile eines Berechtigungskonzepts umfassen:
-* Ressourcen (z. B. Anwendungen, Server).
-* Benutzerrollen (z. B. „Mitarbeiter“, „Administrator“).
-* Zugriffsrechte (welche Aktionen eine Rolle ausführen darf).
-* Prozesse (für Genehmigung, Entzug und Überwachung von Berechtigungen).
+### Ziele
+*	Erhöhung der IT-Sicherheit
+*	Gewährleistung der Compliance
+*	Steigerung der betrieblichen Effizienz
+*	Minimierung von Risiken durch unbefugte Zugriffe
+
+### Regulatorische Anforderungen
+Das Konzept berücksichtigt die Vorgaben von VAIT, BAIT und insbesondere DORA:
+*	VAIT/BAIT: Detaillierte Vorgaben für IT-Berechtigungskonzepte, Genehmigungs- und Kontrollprozesse
+*	DORA (ab 17. Januar 2025):
+*	Regelmäßige Access Reviews (mindestens jährlich, für kritische Systeme halbjährlich)
+*	Automatisierte Lösungen für Identity Governance
+*	Sofortige Entfernung nicht benötigter Rechte
+
+
+### Regelmäßige Überprüfung
+
+Das Berechtigungskonzept wird kontinuierlich angepasst und mindestens einmal jährlich auf Aktualität geprüft. Für kritische Systeme erfolgen halbjährliche User 
+Access Reviews gemäß DORA-Vorgaben.
+
+### Automatisierung
+Zur Erfüllung der DORA-Anforderungen werden automatische Lösungen für Identity Governance implementiert, einschließlich automatischer Provisionierung und 
+User Lifecycle Management.
+
+Dieses Berechtigungskonzept gewährleistet die Einhaltung aktueller regulatorischer Anforderungen, insbesondere DORA, und betont die Notwendigkeit regelmäßiger 
+Überprüfungen zur Aufrechterhaltung eines hohen Sicherheitsniveaus.
+
 
 ### Ressource 
 
