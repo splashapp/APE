@@ -31,13 +31,7 @@ Das Konzept berücksichtigt die Vorgaben von VAIT, BAIT und insbesondere DORA:
 Das Berechtigungskonzept wird kontinuierlich angepasst und mindestens einmal jährlich auf Aktualität geprüft. Für kritische Systeme erfolgen halbjährliche User 
 Access Reviews gemäß DORA-Vorgaben.
 
-### Automatisierung
-Zur Erfüllung der DORA-Anforderungen werden automatische Lösungen für Identity Governance implementiert, einschließlich automatischer Provisionierung und 
-User Lifecycle Management.
-
-Dieses Berechtigungskonzept gewährleistet die Einhaltung aktueller regulatorischer Anforderungen, insbesondere DORA, und betont die Notwendigkeit regelmäßiger 
-Überprüfungen zur Aufrechterhaltung eines hohen Sicherheitsniveaus.
-
+## Bestandteile eine Berechtigungskonzepts
 
 ### Ressource 
 
