@@ -68,21 +68,32 @@ organisieren und deren Zugriffsrechte zu verwalten. Der Name der Gruppe wird in 
 und Verwaltung von Berechtigungen innerhalb des Autorisierungsrepositories wie Active Directory erleichtert.
 
 
-## Definitionen: Entitlement und Resource Bundle in IAM-Tools wie SailPoint IIQ
-
 ### Entitlement
 
 Ein Entitlement (Berechtigung) bezeichnet in einem IAM-Tool wie SailPoint IIQ eine spezifische Zugriffserlaubnis auf eine Ressource oder eine Ressourcenkapazität. Es ist die kleinste Einheit, die einem Benutzer zugewiesen werden kann, um bestimmte Funktionen oder Daten innerhalb einer Anwendung, eines Systems oder einer Plattform zu nutzen.
 
 Beispiele:
-	•	Zugriff auf ein Verzeichnis (z. B. Read, Write, Execute).
-	•	Zuweisung einer Rolle innerhalb einer Anwendung (z. B. SAP_Finance_User).
-	•	Mitgliedschaft in einer Gruppe, die mit bestimmten Berechtigungen verbunden ist (z. B. ActiveDirectory_Group_Admins).
+*	Zugriff auf ein Verzeichnis (z. B. Read, Write, Execute).
+*	Zuweisung einer Rolle innerhalb einer Anwendung (z. B. SAP_Finance_User).
+*	Mitgliedschaft in einer Gruppe, die mit bestimmten Berechtigungen verbunden ist (z. B. ActiveDirectory_Group_Admins).
 
 Im IAM-Kontext wird ein Entitlement verwendet, um:
-	•	Granulare Zugriffskontrollen zu definieren.
-	•	Die Zuweisung von Berechtigungen automatisiert zu verwalten.
-	•	Compliance-Anforderungen (z. B. Audit) durch Nachverfolgbarkeit und Berichtsfunktionen zu erfüllen.
+*	Granulare Zugriffskontrollen zu definieren.
+*	Die Zuweisung von Berechtigungen automatisiert zu verwalten.
+*	Compliance-Anforderungen (z. B. Audit) durch Nachverfolgbarkeit und Berichtsfunktionen zu erfüllen.
+
+### Entitlement vs Group
+1.	Ein Entitlement in IIQ repräsentiert ein Zugriffsrecht, das aus einem Autorisierungsrepository wie Active Directory ausgelesen wird.
+2.	Eine Gruppe aus Active Directory wird in IIQ als ein Entitlement vom Typ “Group” importiert.
+3.	Entitlements in IIQ können mit zusätzlichen Attributen angereichert werden, wie:
+*	SoD-Area (Segregation of Duties)
+*	Kennzeichnung als privilegiert
+*	Nutzungseinschränkungen
+*	Managed/Unmanaged Status
+*	Beschreibungen
+*	Besitzer
+4.	Diese Anreicherung ermöglicht eine detailliertere Verwaltung und Kontrolle der Zugriffsrechte als die ursprüngliche Gruppenstruktur.
+
 
 ### Resource Bundle
 
